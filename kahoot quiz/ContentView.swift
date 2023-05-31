@@ -94,7 +94,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .alert(correctAnswer ? "Correct" : "Incorrect", isPresented: $showAlert){
+            .alert(correctAnswer ? "Correct!!" : "Incorrect :(", isPresented: $showAlert){
                 
                 Button("Next question") {
                     currentIndex += 1
