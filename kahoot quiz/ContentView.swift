@@ -96,7 +96,7 @@ struct ContentView: View {
             }
             .alert(correctAnswer ? "Correct!!" : "Incorrect :(", isPresented: $showAlert){
                 
-                Button("Next question") {
+                Button("Next question?") {
                     currentIndex += 1
                     if currentIndex == questions.count{
                         showSheet = true
